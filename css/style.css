@@ -3,12 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/*
 body {
     font-family: 'Roboto', sans-serif;
 }
 
-/*HEADER*/
+/*HEADER
 
 .estiloHeader {
     background-color: black;
@@ -46,7 +46,7 @@ div nav ul li {
     font-size: medium;
 }
 
-/*MAIN-INDEX*/
+MAIN-INDEX*/
 
 .fondoForm {
     /*background-image: url("https://i.picsum.photos/id/10/2500/1667.jpg?hmac=J04WWC_ebchx3WwzbM-Z4_KC_LeLBWr5LZMaAkWkF68");*/
