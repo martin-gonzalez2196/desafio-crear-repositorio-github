@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+footer {
+    background-color: black;
+    font-style: normal;
+    font-size: small;
+    line-height: 2;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    color: white;
+footer img {
+    margin-left: 20px;
+    margin-right: 20px;
+footer div section p {
+    margin-left: 20px;
+    padding-right: 80px;
+h3 {
+    text-align: justify;
+    height: 50px;
+.FooterPosition {
+    text-decoration: none;
+    color: white ;
+    margin: 30px;
+    &:hover {
+        color: white;
+        border-bottom: 2px solid white;
+    }
+                }
+            }
+        }
+    }
+}
+
+.FooterPosition {
+    text-decoration: none;
+    color: white ;
+    margin: 30px;
+}
