@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+/*
+.fondoForm {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(to bottom, #0077b6, #0096c7, #00b4d8, #48cae4, #90e0ef);
+    
+    .fondoForm form {
+    padding: 40px;
+}
+    
+    .main-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        
+    .ordenForm {
+        margin: 30px;
+        padding: 50px;
+        color: black;
+        font-size: medium;
+        font-weight: bold;
+        line-height: 28px;
+        display: inline-block;
+        background-color: white;
+        border: 1.5px solid black;
+        border-radius: 10px;
+
+    h2 {
+        margin-bottom: 20px;
+
+    input {
+        width: 80%;
+        margin-right: 70px;
+        margin-bottom: 20px;
+
+    .button [type= "submit"] {
+        font-weight: bold;
+        margin-bottom: 10px;
+        border: 1.5px solid black;
+        padding: 10px;
+
+    .button :hover {
+        cursor: pointer;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+*/
+
+.fondoForm {
+    /*background-image: url("https://i.picsum.photos/id/10/2500/1667.jpg?hmac=J04WWC_ebchx3WwzbM-Z4_KC_LeLBWr5LZMaAkWkF68");*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(to bottom, #0077b6, #0096c7, #00b4d8, #48cae4, #90e0ef);
+    
+    .main-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+    form {
+      padding: 40px;
+    }
+  }
+  
+  .ordenForm {
+    margin: 30px;
+    padding: 50px;
+    color: black;
+    font-size: medium;
+    font-weight: bold;
+    line-height: 28px;
+    display: inline-block;
+    background-color: white;
+    border: 1.5px solid black;
+    border-radius: 10px;
+  }
+  
+  form h2 {
+    margin-bottom: 20px;
+  }
+  
+  input {
+    width: 80%;
+    margin-right: 70px;
+    margin-bottom: 20px;
+  }
+  
+  .button {
+    [type="submit"] {
+      font-weight: bold;
+      margin-bottom: 10px;
+      border: 1.5px solid black;
+      padding: 10px;
+    }
+  
+    :hover {
+      cursor: pointer;
+    }
+}
+
+.estiloFlota {
+    color: black;
+    font-size: larger;
+    font-style: normal;
+    font-weight: bold;
+    text-align: justify;
+    padding: 20px;
+    line-height: 28px;
+  }
+  
+  .estiloTituloFlota {
+    font-weight: bold;
+    margin: 50px 30px 50px 30px;
+    color: whitesmoke;
+    text-align: center;
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto;
+        gap: 20px;
+        justify-items: center;
+        padding-left: 30px;
+        padding-right: 30px;
+      
+        :hover {
+          transform: scale(1.3);
+        }
+      }
+
+  }
+  
+  .card {
+    background-color: whitesmoke;
+    color: black;
+    font-size: large;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+    height: 200px;
+    padding: 10px;
+    line-height: 28px;
+    border-radius: 10px;
+    border: 2px solid black;
+    display: inline-block;
+    width: 200px;
+  
+    :hover {
+      cursor: pointer;
+    }
+  }
+  
+  .card__box {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .card__title {
+    font-size: large;
+  }
+  
+  .card__img {
+    border: 1px solid black;
+  }
+
+/*
+.estiloFlota {
+    color: black;
+    font-size: larger;
+    font-style: normal;
+    font-weight: bold;
+    text-align: justify;
+    padding: 20px;
+    line-height: 28px;
+
+    .estiloTituloFlota {
+        font-weight: bold;
+        margin: 50px 30px 50px 30px;
+        color: whitesmoke;
+        text-align: center;
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: auto;
+            gap: 20px;
+            justify-items: center;
+            padding-left: 30px;
+            padding-right: 30px;
+
+            .card {
+                background-color: whitesmoke;
+                color: black;
+                font-size: large;
+                font-style: normal;
+                font-weight: bold;
+                text-align: center;
+                margin: 20px;
+                height: 200px;
+                padding: 10px;
+                line-height: 28px;
+                border-radius: 10px;
+                border: 2px solid black;
+                display: inline-block;
+                width: 200px;
+
+                &__title {
+                    font-size: large;
+                
+                    &__img {
+                        border: 1px solid black;
+
+                        &__box {
+                            display: flex;
+                            justify-content: space-evenly;
+
+                            & :hover {
+                                cursor: pointer;
+
+                                .grid-container :hover {
+                                    transform: scale(1.3);
+                                }
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+}
+ */
+
+@media (max-width: 320px) {
+    .main-grid, .grid-container {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
