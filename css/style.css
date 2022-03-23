@@ -143,7 +143,7 @@ footer img {
   margin-left: 20px;
   margin-right: 20px;
 }
-footer img p {
+footer div section p {
   margin-left: 20px;
   padding-right: 80px;
 }
@@ -151,7 +151,8 @@ footer img p {
 h3 {
   text-align: justify;
   height: 50px;
-  font-size: large;
+  font-size: medium;
+  font-weight: bold;
 }
 
 .FooterPosition {
