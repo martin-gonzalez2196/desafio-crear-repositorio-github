@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+$mapaRedes: (twitter: red, instagram: blue, tiktok: yellow);
+@each $redes, $color in $mapaRedes {
+
+    .btn-#{$redes} {
+background-color: $color;
+}
+}
