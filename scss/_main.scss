@@ -1,61 +1,4 @@
-/*
 .fondoForm {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: linear-gradient(to bottom, #0077b6, #0096c7, #00b4d8, #48cae4, #90e0ef);
-    
-    .fondoForm form {
-    padding: 40px;
-}
-    
-    .main-grid {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        
-    .ordenForm {
-        margin: 30px;
-        padding: 50px;
-        color: black;
-        font-size: medium;
-        font-weight: bold;
-        line-height: 28px;
-        display: inline-block;
-        background-color: white;
-        border: 1.5px solid black;
-        border-radius: 10px;
-
-    h2 {
-        margin-bottom: 20px;
-
-    input {
-        width: 80%;
-        margin-right: 70px;
-        margin-bottom: 20px;
-
-    .button [type= "submit"] {
-        font-weight: bold;
-        margin-bottom: 10px;
-        border: 1.5px solid black;
-        padding: 10px;
-
-    .button :hover {
-        cursor: pointer;
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
-*/
-
-.fondoForm {
-    /*background-image: url("https://i.picsum.photos/id/10/2500/1667.jpg?hmac=J04WWC_ebchx3WwzbM-Z4_KC_LeLBWr5LZMaAkWkF68");*/
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: linear-gradient(to bottom, #0077b6, #0096c7, #00b4d8, #48cae4, #90e0ef);
     
     .main-grid {
         display: grid;
@@ -246,3 +189,4 @@
     .grid-container {
         grid-template-columns: repeat(1, 1fr);
     }
+}
