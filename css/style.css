@@ -10,23 +10,43 @@ body {
 
 .btn-twitter {
   background-color: red;
+  margin-left: 20px;
+  padding: 5px;
 }
 
 .btn-instagram {
   background-color: blue;
+  margin-left: 20px;
+  padding: 5px;
 }
 
 .btn-tiktok {
   background-color: yellow;
+  margin-left: 20px;
+  padding: 5px;
 }
 
 .fondoForm {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: linear-gradient(to bottom, #0077b6, #0096c7, #00b4d8, #48cae4, #90e0ef);
 }
 
+.fondoQuienesSomos {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fondoFlota {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fondoForm {
+  background-color: #0077b6;
+}
 .fondoForm .main-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -58,145 +78,6 @@ input {
   margin-bottom: 20px;
 }
 
-.button [type=submit] {
-  font-weight: bold;
-  margin-bottom: 10px;
-  border: 1.5px solid black;
-  padding: 10px;
-}
-.button :hover {
-  cursor: pointer;
-}
-
-.estiloFlota {
-  color: black;
-  font-size: larger;
-  font-style: normal;
-  font-weight: bold;
-  text-align: justify;
-  padding: 20px;
-  line-height: 28px;
-}
-
-.estiloTituloFlota {
-  font-weight: bold;
-  margin: 50px 30px 50px 30px;
-  color: whitesmoke;
-  text-align: center;
-}
-.estiloTituloFlota .grid-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: auto;
-  gap: 20px;
-  justify-items: center;
-  padding-left: 30px;
-  padding-right: 30px;
-}
-.estiloTituloFlota .grid-container :hover {
-  transform: scale(1.3);
-}
-
-.card {
-  background-color: whitesmoke;
-  color: black;
-  font-size: large;
-  font-style: normal;
-  font-weight: bold;
-  text-align: center;
-  margin: 20px;
-  height: 200px;
-  padding: 10px;
-  line-height: 28px;
-  border-radius: 10px;
-  border: 2px solid black;
-  display: inline-block;
-  width: 200px;
-}
-.card :hover {
-  cursor: pointer;
-}
-
-.card__box {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.card__title {
-  font-size: large;
-}
-
-.card__img {
-  border: 1px solid black;
-}
-
-/*
-.estiloFlota {
-    color: black;
-    font-size: larger;
-    font-style: normal;
-    font-weight: bold;
-    text-align: justify;
-    padding: 20px;
-    line-height: 28px;
-
-    .estiloTituloFlota {
-        font-weight: bold;
-        margin: 50px 30px 50px 30px;
-        color: whitesmoke;
-        text-align: center;
-
-        .grid-container {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            grid-template-rows: auto;
-            gap: 20px;
-            justify-items: center;
-            padding-left: 30px;
-            padding-right: 30px;
-
-            .card {
-                background-color: whitesmoke;
-                color: black;
-                font-size: large;
-                font-style: normal;
-                font-weight: bold;
-                text-align: center;
-                margin: 20px;
-                height: 200px;
-                padding: 10px;
-                line-height: 28px;
-                border-radius: 10px;
-                border: 2px solid black;
-                display: inline-block;
-                width: 200px;
-
-                &__title {
-                    font-size: large;
-
-                    &__img {
-                        border: 1px solid black;
-
-                        &__box {
-                            display: flex;
-                            justify-content: space-evenly;
-
-                            & :hover {
-                                cursor: pointer;
-
-                                .grid-container :hover {
-                                    transform: scale(1.3);
-                                }
-                            }
-                        }
-
-                    }
-                }
-            }
-        }
-    }
-}
- */
 @media (max-width: 320px) {
   .main-grid {
     grid-template-columns: repeat(1, 1fr);
@@ -212,6 +93,7 @@ footer {
   font-size: small;
   line-height: 2;
   padding: 20px;
+  padding-top: 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -221,6 +103,7 @@ footer {
 footer img {
   margin-left: 20px;
   margin-right: 20px;
+  padding-bottom: 50px;
 }
 footer div section p {
   margin-left: 20px;
@@ -237,7 +120,71 @@ footer div section p {
 .FooterPosition {
   text-decoration: none;
   color: white;
-  margin: 30px;
+}
+
+.row {
+  justify-content: space-evenly;
+}
+
+.fondoQuienesSomos {
+  background-color: #0077b6;
+}
+.fondoQuienesSomos .estiloH2 {
+  font-weight: bold;
+  margin: 30px 30px 30px 30px;
+}
+.fondoQuienesSomos .estiloP {
+  margin: 30px 30px 30px 30px;
+}
+.fondoQuienesSomos .estiloQuienesSomos {
+  color: black;
+  font-size: large;
+  font-style: normal;
+  font-weight: bold;
+  text-align: justify;
+  width: 80%;
+  padding: 20px;
+  line-height: 28px;
+}
+.fondoQuienesSomos .estiloH3, .fondoQuienesSomos .extendClass {
+  font-weight: bold;
+  margin: 30px 30px 10px 30px;
+}
+.fondoQuienesSomos .estiloIframe {
+  margin: 30px 30px 30px 30px;
+}
+
+.fondoFlota {
+  background-color: #0077b6;
+}
+.fondoFlota .row {
+  justify-content: space-evenly;
+}
+.fondoFlota .estiloTituloFlota {
+  border: 2px solid white;
+  margin-left: 20rem;
+  margin-right: 20rem;
+}
+.fondoFlota .estiloSubtituloFlota {
+  border: 2px solid white;
+  margin: 2rem 25rem 2rem 25rem;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+.fondoFlota .card {
+  height: fit-content;
+}
+.fondoFlota .card .card__img {
+  border: 1px solid black;
+  margin-top: 1rem;
+}
+.fondoFlota .card .card-title {
+  font-weight: bolder;
+  font-size: x-large;
+}
+.fondoFlota .card .card-text {
+  font-size: medium;
 }
 
 /*# sourceMappingURL=style.css.map */

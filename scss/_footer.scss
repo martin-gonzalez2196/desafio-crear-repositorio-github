@@ -4,6 +4,7 @@
             font-size: small;
             line-height: 2;
             padding: 20px;
+            padding-top: 50px;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -13,11 +14,13 @@
             img {
               margin-left: 20px;
               margin-right: 20px;
+              padding-bottom: 50px;
             }
           
             div section p {
               margin-left: 20px;
               padding-right: 80px;
+            
             }
           }
           
@@ -31,5 +34,7 @@
           .FooterPosition {
             text-decoration: none;
             color: white;
-            margin: 30px;
           }
+          .row {
+            justify-content: space-evenly;
+        }

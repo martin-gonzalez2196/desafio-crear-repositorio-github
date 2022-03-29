@@ -13,6 +13,9 @@ $mapaRedes: (twitter: red, instagram: blue, tiktok: yellow);
 
     .btn-#{$redes} {
 background-color: $color;
+margin-left: 20px;
+padding: 5px;
+
 }
 }
 
@@ -24,9 +27,17 @@ background-color: $color;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        background-image: linear-gradient(to bottom, #0077b6, #0096c7, #00b4d8, #48cae4, #90e0ef);
     }
     
     .fondoForm {
     @include estiloMixin;
     }
+
+    .fondoQuienesSomos {
+        @include estiloMixin;
+        }
+
+    .fondoFlota {
+        @include estiloMixin;
+        }
+
