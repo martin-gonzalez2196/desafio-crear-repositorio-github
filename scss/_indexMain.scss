@@ -1,0 +1,55 @@
+.fondoForm {
+  background-color: #0077b6;
+
+    .main-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+    form {
+      padding: 40px;
+    }
+  }
+  
+  .ordenForm {
+    margin: 30px;
+    padding: 50px;
+    color: black;
+    font-size: medium;
+    font-weight: bold;
+    line-height: 28px;
+    display: inline-block;
+    background-color: white;
+    border: 1.5px solid black;
+    border-radius: 10px;
+  }
+  
+  form h2 {
+    margin-bottom: 20px;
+    font-size: xx-large;
+    font-weight: bold;
+    border-bottom: 1.5px solid black;
+  }
+  
+.marginCero {
+  margin: 20px 0px 0px 0px;
+}
+
+  input {
+    width: 60%;
+    margin-right: 70px;
+    margin-bottom: 20px;
+    
+  }
+
+ @media (max-width: 320px) {
+
+    .main-grid {
+
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

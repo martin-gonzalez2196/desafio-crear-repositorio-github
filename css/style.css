@@ -70,10 +70,17 @@ body {
 
 form h2 {
   margin-bottom: 20px;
+  font-size: xx-large;
+  font-weight: bold;
+  border-bottom: 1.5px solid black;
+}
+
+.marginCero {
+  margin: 20px 0px 0px 0px;
 }
 
 input {
-  width: 80%;
+  width: 60%;
   margin-right: 70px;
   margin-bottom: 20px;
 }
