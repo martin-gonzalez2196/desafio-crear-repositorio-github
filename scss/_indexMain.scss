@@ -1,5 +1,6 @@
 .fondoForm {
   background-color: #0077b6;
+  padding: 10px;
 
     .main-grid {
         display: grid;
@@ -9,19 +10,6 @@
     form {
       padding: 40px;
     }
-  }
-  
-  .ordenForm {
-    margin: 30px;
-    padding: 50px;
-    color: black;
-    font-size: medium;
-    font-weight: bold;
-    line-height: 28px;
-    display: inline-block;
-    background-color: white;
-    border: 1.5px solid black;
-    border-radius: 10px;
   }
   
   form h2 {
