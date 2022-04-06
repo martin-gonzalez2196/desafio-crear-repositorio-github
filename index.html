@@ -54,34 +54,38 @@
                 <form action="" method="" enctype="" class="ordenForm">
                     <h2>Alquila tu Auto</h2>
                     
-                    <div>
-                        <p class="marginCero">Categoria de Auto:</p>
-                        <select>
+                    <div class="mb-3">
+                        <label for="categoria" class="form-label">Categoria</label>
+                        <select class="form-select" id="categoria" name="categoria">
                             <option value="1">Categoria A</option>
                             <option value="2">Categoria B</option>
                             <option value="2">Categoria C</option>
                         </select>
                     </div>
-    
-                    <div>
-                        <p class="marginCero">Lugar de Entrega:</p>
-                        <select>
+
+                    <div class="mb-3">
+                        <label for="entrega" class="form-label">Lugar de entrega</label>
+                        <select class="form-select" id="entrega" name="entrega">
                             <option value="1">Aeropuerto</option>
                             <option value="2">Centro de Bariloche</option>
                         </select>
                     </div>
-    
-                    <div>
-                        <label for="Fecha de Entrega" class="marginCero">Fecha de Entrega:</label>
-                        <input type="date" name="Fecha de Entrega" id="Fecha de Entrega" />
-    
-                        <label for="Horario de Entrega">Horario de Entrega:</label>
-                        <input type="text" name="Horario de Entrega" id="Horario de Entrega" placeholder="00:00" />
-    
-                        <label for="Fecha de Devolucion">Fecha de Devolucion:</label>
-                        <input type="date" name="Fecha de Devolucion" id="Fecha de Devolucion" />
+                    
+                    <div class="mb-3">
+                        <label for="Fecha de Entrega">Fecha de Entrega:</label>
+                        <input type="date" class="form-control" name="Fecha de Entrega" id="Fecha de Entrega">
                     </div>
-                    <a href="#" class="btn btn-primary">Reservar</a>
+
+                    <div class="mb-3">
+                        <label for="Horario de Entrega">Horario de Entrega:</label>
+                        <input type="time" class="form-control" name="Horario de Entrega" id="Horario de Entrega"/>
+                    </div>
+                    <div class="mb-3">
+                        <label for="Fecha de Devolucion">Fecha de Devolucion:</label>
+                        <input type="date" name="Fecha de Devolucion" id="Fecha de Devolucion" class="form-control"/>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary">Reservar</button>
                 </form>
               </div>
               <div class="col"></div>
