@@ -44,6 +44,18 @@ body {
   background-size: cover;
 }
 
+.fondoInformacionAdicional {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fondoContacto {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .fondoForm {
   background-color: #0077b6;
 }
@@ -193,5 +205,114 @@ footer div section p {
 .fondoFlota .card .card-text {
   font-size: medium;
 }
+
+.fondoInformacionAdicional {
+  background-color: #0077b6;
+}
+
+.estiloIA {
+  color: black;
+  font-size: large;
+  font-style: normal;
+  font-weight: bold;
+  text-align: justify;
+  width: 80%;
+  padding: 20px;
+  line-height: 28px;
+}
+
+#estiloTexto {
+  font-weight: bold;
+  margin: 30px 30px 0px 30px;
+  line-height: 20px;
+}
+
+.interlineadoTexto {
+  height: 50px;
+}
+
+.estiloTable {
+  margin: 30px 30px 0px 30px;
+  border: 1.5px solid black;
+}
+
+.fondoContacto {
+  background-color: #0077b6;
+}
+
+.ordenContacto {
+  width: 50%;
+  margin: 30px 70px 20px 30px;
+  padding: 50px 100px 50px 50px;
+  color: black;
+  font-size: medium;
+  font-weight: bold;
+  line-height: 28px;
+  display: inline-block;
+  background-color: white;
+  border: 1.5px solid black;
+  border-radius: 10px;
+}
+
+.inputContacto {
+  width: 74%;
+  margin-top: 20px;
+  margin-right: 80px;
+  margin-bottom: 20px;
+}
+
+.inputDos {
+  width: 10%;
+  align-items: center;
+  margin-top: 20px;
+  margin-right: 50px;
+  margin-bottom: 20px;
+}
+
+.mensaje {
+  width: 90%;
+  margin-top: 20px;
+  margin-right: 80px;
+  margin-bottom: 20px;
+}
+
+.button {
+  width: 20%;
+}
+
+/*
+.textArea {
+  align-items: center;
+  padding-bottom: 50px;
+  margin-top: 20px;
+  margin-right: 50px;
+  margin-bottom: 20px;
+}
+
+.buttonContacto1 {
+  [type="reset"] {
+    font-weight: bold;
+    margin-bottom: 10px;
+    border: 1.5px solid black;
+    padding: 10px;
+  }
+
+  :hover {
+    cursor: pointer;
+  }
+}
+
+.buttonContacto2 {
+  [type="submit"] {
+    font-weight: bold;
+    margin-bottom: 10px;
+    border: 1.5px solid black;
+    padding: 10px;
+  }
+
+  :hover {
+    cursor: pointer;
+  }
+}*/
 
 /*# sourceMappingURL=style.css.map */

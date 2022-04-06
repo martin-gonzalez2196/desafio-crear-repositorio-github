@@ -31,7 +31,7 @@ padding: 5px;
     
     .fondoForm {
     @include estiloMixin;
-    }
+        }
 
     .fondoQuienesSomos {
         @include estiloMixin;
@@ -41,3 +41,10 @@ padding: 5px;
         @include estiloMixin;
         }
 
+    .fondoInformacionAdicional {
+        @include estiloMixin;
+        }
+        
+    .fondoContacto {
+        @include estiloMixin;
+        }
