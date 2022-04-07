@@ -163,14 +163,16 @@ footer div section p {
 
 .fondoFlota {
   background-color: #0077b6;
+  padding: 10px;
 }
 .fondoFlota .row {
   justify-content: space-evenly;
 }
 .fondoFlota .estiloTituloFlota {
   border: 2px solid white;
-  margin-left: 20rem;
-  margin-right: 20rem;
+  color: white;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 .fondoFlota .estiloSubtituloFlota {
   border: 2px solid white;
@@ -178,6 +180,8 @@ footer div section p {
   text-align: center;
   color: white;
   font-weight: bold;
+  padding-left: 80px;
+  padding-right: 80px;
 }
 .fondoFlota .card {
   height: fit-content;

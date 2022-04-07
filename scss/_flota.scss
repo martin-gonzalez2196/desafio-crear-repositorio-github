@@ -1,13 +1,15 @@
 .fondoFlota {
     background-color: #0077b6;
+    padding: 10px;
 .row {
     justify-content: space-evenly;
 }
 
 .estiloTituloFlota {
     border: 2px solid white;
-    margin-left: 20rem;
-    margin-right: 20rem;
+    color: white;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .estiloSubtituloFlota {
@@ -16,6 +18,8 @@
     text-align: center;
     color: white;
     font-weight: bold;
+    padding-left: 80px;
+    padding-right: 80px;
 }
     
 .card {
