@@ -138,27 +138,45 @@ footer div section p {
 }
 .fondoQuienesSomos .estiloH2 {
   font-weight: bold;
-  margin: 30px 30px 30px 30px;
-}
-.fondoQuienesSomos .estiloP {
-  margin: 30px 30px 30px 30px;
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
 .fondoQuienesSomos .estiloQuienesSomos {
-  color: black;
+  color: white;
   font-size: large;
   font-style: normal;
   font-weight: bold;
   text-align: justify;
-  width: 80%;
+  width: 100%;
   padding: 20px;
   line-height: 28px;
+  padding-right: 20%;
+  padding-left: 20%;
 }
 .fondoQuienesSomos .estiloH3, .fondoQuienesSomos .extendClass {
+  text-align: center;
   font-weight: bold;
+  font-size: larger;
   margin: 30px 30px 10px 30px;
 }
-.fondoQuienesSomos .estiloIframe {
-  margin: 30px 30px 30px 30px;
+.fondoQuienesSomos .videoBariloche {
+  width: 100%;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+.fondoQuienesSomos .videoBariloche:after {
+  content: "";
+  display: block;
+  width: 100%;
+  padding-bottom: 56.25%;
+}
+.fondoQuienesSomos .estiloVideo {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .fondoFlota {

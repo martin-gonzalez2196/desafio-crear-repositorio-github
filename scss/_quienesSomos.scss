@@ -1,32 +1,51 @@
 .fondoQuienesSomos {
     background-color: #0077b6;
 
-  .estiloH2 {
-    font-weight: bold;
-    margin: 30px 30px 30px 30px;
-  }
-  
-  .estiloP {
-    margin: 30px 30px 30px 30px;
-  }
-  
-  .estiloQuienesSomos {
-    color: black;
-    font-size: large;
-    font-style: normal;
-    font-weight: bold;
-    text-align: justify;
-    width: 80%;
-    padding: 20px;
-    line-height: 28px;
-  }
-  
-  .estiloH3 {
-    font-weight: bold;
-    margin: 30px 30px 10px 30px;
-  }
-  
-  .estiloIframe {
-    margin: 30px 30px 30px 30px;
-  }
+    .estiloH2 {
+      font-weight: bold;
+      margin-top: 30px;
+      margin-bottom: 20px;
+    }
+    
+    .estiloQuienesSomos {
+      color: white;
+      font-size: large;
+      font-style: normal;
+      font-weight: bold;
+      text-align: justify;
+      width: 100%;
+      padding: 20px;
+      line-height: 28px;
+      padding-right: 20%;
+      padding-left: 20%;
+    }
+    
+    .estiloH3 {
+      text-align: center;
+      font-weight: bold;
+      font-size: larger;
+      margin: 30px 30px 10px 30px;
+    }
+
+    .videoBariloche {
+      width: 100%;
+      position: relative;
+      margin-left: auto;
+      margin-right: auto;
+    
+      &:after {
+        content: "";
+        display: block;
+        width: 100%;
+        padding-bottom: 56.25%;
+      }
+    }
+    
+    .estiloVideo {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
 }
