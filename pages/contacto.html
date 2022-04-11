@@ -48,66 +48,77 @@
             </div>
           </nav>
     </header>
-    <main>
-        <section class="fondoContacto">
-            <form action="" method="" enctype="" class="ordenContacto">
-                <h2>Contacto</h2>
+    <main class="fondoContacto">
+        <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <form action="" method="" enctype="">
+                                    <h2>Contacto</h2>
+                                    <div class="mb-3">
+                                        <label for="formGroupExampleInput" class="form-label">Nombre y apellido</label>
+                                        <input type="text" class="form-control shadow p-2 mb-2 bg-body rounded" id="formGroupExampleInput" placeholder="Nombre y apellido">
+                                      </div>
 
-                <label for="Nombre y apellido">Nombre y apellido</label>
-                <input type="text" name="Nombre y apellido" id="Nombre y apellido" class="inputContacto" />
+                                      <div>
+                                        <label for="inputEmail4" class="form-label">Email</label>
+                                        <input type="email" class="form-control shadow p-2 mb-2 bg-body rounded" id="inputEmail4" placeholder="@hotmail.com">
+                                      </div>  
 
-                <label for="email">E-mail</label>
-                <input type="email" id="email" class="inputContacto" />
+                                      <div class="mb-3">
+                                        <label for="formGroupExampleInput" class="form-label">Teléfono</label>
+                                        <input type="text" class="form-control shadow p-2 mb-2 bg-body rounded" id="formGroupExampleInput" placeholder="Teléfono">
+                                      </div>
 
-                <label for="Telefono">Telefono</label>
-                <input type="text" name="Telefono" id="Telefono" class="inputContacto" />
+                                    <div class="mb-3">
+                                        <label
+                                            for="categoria"
+                                            class="form-label"
+                                            >Cantidad de Pasajeros</label>
+                                        <select
+                                            class="form-select shadow p-2 mb-2 bg-body rounded"
+                                            id="categoria"
+                                            name="categoria"
+                                            style="width: 20%;"
+                                            >
+                                            <option value="1">
+                                                1
+                                            </option>
+                                            <option value="2">
+                                                2
+                                            </option>
+                                            <option value="2">
+                                                3
+                                            </option>
+                                            <option value="1">
+                                                4
+                                            </option>
+                                            <option value="1">
+                                                5
+                                            </option>
+                                        </select>
+                                    </div>
 
-                <hr />
-                <p>¿Sos mayor de edad?</p>
-                <label for="Si">Si</label>
-                <input type="radio" name="edad" id="Si" class="inputDos" />
-                <label for="No">No</label>
-                <input type="radio" name="edad" id="No" class="inputDos" />
-
-                <hr />
-                <p>Cantidad de pasajeros:</p>
-                <select name="" id="">
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                </select>
-
-                <hr />
-                <label for="Aceptar">Desea recibir promociones?</label>
-                <input type="checkbox" name="Aceptar" id="Aceptar" class="inputDos">
-                <hr />
-                
-                <div class="form-floating mensaje">
-                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
-                    <label for="floatingTextarea2">Deje su consulta</label>
-                  </div>
-
-                <!--
-                  <div class="textArea">
-                    <label for="Mensaje">Mensaje</label>
-                    <textarea type="text" name="Mensaje" id="Mensaje">Mensaje</textarea>
+                                    <div class="form-floating mensaje">
+                                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                                        <label for="floatingTextarea2">Deje su consulta</label>
+                                      </div>
+                                      <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                                        <label class="form-check-label mb-3" for="flexCheckIndeterminate">
+                                            Desea recibir promociones?
+                                        </label>
+                                      </div>
+                                      <input class="btn btn-primary button buttonContacto" type="reset" value="Borrar">
+                                    <input class="btn btn-primary button buttonContacto" type="submit" value="Enviar">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col"></div>
                 </div>
-                -->
-                <input class="btn btn-primary button" type="reset" value="Reset">
-                <input class="btn btn-primary button" type="submit" value="Submit">
-                <!--
-                <div class="buttonContacto1">
-                    <button type="reset">Limpiar Formulario</button>
-                </div>
-                
-                <div class="buttonContacto2">
-                    <button type="submit" class="buttonContacto2">Enviar Formulario</button>
-                </div>
-                -->
-            </form>
-        </section>
+            </div>
     </main>
     <footer>
         <div class="container">
